@@ -257,6 +257,10 @@ button:hover {
     transform: scale(1.1);
 }
 
+.product-image img:hover {
+	transform: scale(1.1);	
+}
+
 button.check {
     width: 300px;
 }
