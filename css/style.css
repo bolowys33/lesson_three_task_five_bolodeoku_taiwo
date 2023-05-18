@@ -319,12 +319,23 @@ header.left {
 
 @media screen and (width <=480px) {
     header {
-        justify-content: center;
     }
 
-    header .left {
+    header nav a{
         display: none;
     }
+
+    .left h2{
+        display: none;
+    }
+
+}
+
+@media screen and (width >=481px){
+    .right span{
+        display: none;
+    }
+
 }
 
 @media screen and (width >=768px) {
